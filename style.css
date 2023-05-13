@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  background-image: url(img/back.svg);
+  background-size: cover;
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: center;
+}
+.cabecalho-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+  background: rgba(255, 255, 255, 0.46);
+  padding: 10px;
+  width: 1830px;
+  border-radius: 5px;
+}
+
+.cabecalho-imagem {
+  height: 100px;
+}
+
+.cabecalho-navbar {
+  display: flex;
+  gap: 80px;
+}
+
+.cabecalho-navbar-item {
+  font-family: "Inter", sans-serif;
+  font-size: 1.5rem;
+  color: #3c3c3c;
+}
+
+.conteudo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.conteudo-box {
+  display: flex;
+  flex-flow: row, wrap;
+  justify-content: space-around;
+  align-items: center;
+  width: 1672px;
+  height: 786px;
+  background: #ffffff;
+  border-radius: 23px;
+  margin-top: 51px;
+}
+
+.conteudo-secundario-imagem {
+  height: 639px;
+}
+
+.conteudo-principal-paragrafo {
+  width: 854px;
+}
+
+.conteudo-principal-titulo {
+  width: 567px;
+  font-size: 4rem;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  margin-bottom: 50px;
+  margin-left: 60px;
+  color: #094e88;
+}
+
+.dev {
+  display: flex;
+  justify-content: flex-end;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.conteudo-principal {
+  margin-left: 30px;
+  margin-top: 60px;
+}
+
+.conteudo-principal-paragrafo {
+  font-family: "Inter", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 200;
+  width: 854px;
+  color: #3c3c3c;
+}
+
+.conteudo-principal-botao {
+  margin-top: 100px;
+  margin-left: 100px;
+  width: 312px;
+  height: 67px;
+  background: #ff4d00;
+  border-radius: 35px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 39px;
+  text-align: center;
+  color: #ffffff;
+  outline: none;
+  border: none;
+  text-decoration: none;
+}
+
+a.conteudo-principal-btn:visited {
+  color: #ffffff;
+}
+
+.conteudo-principal-botao:hover {
+  cursor: pointer;
+}
+
+.conteudo-principal-botao:active {
+  background-color: #d84100;
+}
+
+.rodape {
+  display: flex;
+  justify-content: center;
+  border-top: solid rgb(231, 231, 231) 1px;
+  margin-top: 50px;
+}
+
+.rodape-imagem {
+  height: 110px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
