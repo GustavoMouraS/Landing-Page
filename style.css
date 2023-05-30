@@ -31,15 +31,28 @@ body {
   height: 100px;
 }
 
+.cabecalho-imagem-ext {
+  display: none;
+}
+
 .cabecalho-navbar {
   display: flex;
   gap: 80px;
 }
 
-.cabecalho-navbar-item {
+.cabecalho-navbar-item-1, .cabecalho-navbar-item-2, .cabecalho-navbar-item-3 {
   font-family: "Inter", sans-serif;
   font-size: 1.5rem;
   color: #3c3c3c;
+}
+
+.cabecalho-navbar-item-2:hover, .cabecalho-navbar-item-3:hover {
+  color: #252525;
+  border-bottom: 1px solid gray;
+}
+
+.cabecalho-navbar-item-1{
+  font-weight: bold;
 }
 
 .conteudo {
@@ -115,6 +128,10 @@ body {
   outline: none;
   border: none;
   text-decoration: none;
+}
+
+a.conteudo-principal-btn{
+  color: #ffffff
 }
 
 a.conteudo-principal-btn:visited {

@@ -1,0 +1,128 @@
+@media screen and (max-width: 1500px) {
+  .conteudo-box {
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+    width: 100vh;
+  }
+
+  .conteudo-secundario{
+    margin-top: 200px;
+    margin-bottom: 50px;
+  }
+
+  .conteudo-principal{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0;
+    
+  }
+
+  .conteudo-principal-paragrafo {
+    width: auto;
+    margin-left: 60px;
+    margin-right: 60px;
+  }
+
+  .conteudo-principal-botao{
+    margin-left: 0;
+  }
+
+  .conteudo-principal-titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0;
+  }
+
+  .dev{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .conteudo-box {
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+    width: 100%;
+    border-radius: 0;
+  }
+
+  .conteudo-principal-titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 3.125rem;
+    width: 0;
+    text-align: center;
+  }
+
+  .conteudo-principal-paragrafo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: auto;
+    text-align: center;  
+    margin: 5px 5px;  
+  }
+
+  .conteudo-secundario-imagem {
+    height: 400px;
+}
+
+.conteudo-principal-botao {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.conteudo-secundario {
+  margin-top: 50px;
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.cabecalho-imagem{
+  display: none;
+}
+
+.cabecalho-imagem-ext {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.cabecalho-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  background: rgba(255, 255, 255, 0.46);
+  padding: 10px;
+  width: 100%;
+  border-radius: 0px;
+}
+
+.cabecalho-navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.cabecalho-navbar-item-1 {
+  color: #ff4d00;
+  font-weight: bold;
+}
+}
