@@ -40,6 +40,36 @@
   .dev{
     display: none;
   }
+
+  .diagramacao {
+    margin-left: 0px;
+    margin-bottom: 50px;
+  }
+
+}
+
+@media screen and (max-width: 860px) {
+  
+.LP-img {
+  display: flex;
+  justify-content: center;
+  height: 350px;
+}
+
+.conteudo-principal-titulo-3 {
+  text-align: center;
+  width: auto;
+  font-size: 2.5rem;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  color: #094e88;
+  margin-bottom: 20px;
+}
+
+.diagramacao {
+  margin-left: 0px;
+  margin-bottom: 50px;
+}
 }
 
 @media screen and (max-width: 600px) {
@@ -125,4 +155,11 @@
   color: #ff4d00;
   font-weight: bold;
 }
+
+.LP-img {
+  display: flex;
+  justify-content: center;
+  height: 250px;
+}
+
 }
