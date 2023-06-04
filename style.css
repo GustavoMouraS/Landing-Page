@@ -111,7 +111,7 @@ body {
   margin-bottom: 30px;
 }
 
-.LP-img {
+.LP-img, .Cal-img {
   display: flex;
   justify-content: flex-start;
   height: 500px;
@@ -138,7 +138,7 @@ body {
   font-style: italic;
 }
 
-.conteudo-principal {
+.conteudo-principal, .conteudo-principal-2 {
   margin-left: 0px;
   margin-top: 60px;
 }

@@ -42,7 +42,8 @@
   }
 
   .diagramacao {
-    margin-left: 0px;
+    max-width: 500px;
+    margin-left: 20px;
     margin-bottom: 50px;
   }
 
@@ -50,7 +51,7 @@
 
 @media screen and (max-width: 860px) {
   
-.LP-img {
+.LP-img, .Cal-img {
   display: flex;
   justify-content: center;
   height: 350px;
@@ -156,7 +157,7 @@
   font-weight: bold;
 }
 
-.LP-img {
+.LP-img, .Cal-img {
   display: flex;
   justify-content: center;
   height: 250px;
